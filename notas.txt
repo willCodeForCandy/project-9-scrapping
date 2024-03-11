@@ -1,0 +1,2 @@
+Boton reject all cookies: button.fc-cta-do-not-consent
+Flecha next page: a[title="next page"]
