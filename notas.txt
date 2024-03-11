@@ -1,2 +1,3 @@
 Boton reject all cookies: button.fc-cta-do-not-consent
 Flecha next page: a[title="next page"]
+Link a detalle (y nombre del juego): '.collection_objectname a'
