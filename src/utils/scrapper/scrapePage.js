@@ -70,7 +70,7 @@ const scrapePage = async (page, browser, listOfGames) => {
 
   await page.$eval('a[title="next page"]', (el) => el.click());
   await page.waitForNavigation();
-  if (listOfGames.length <= 100) {
+  if (listOfGames.length < 200) {
     await scrapePage(page, browser, listOfGames);
   }
 };
